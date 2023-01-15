@@ -44,7 +44,7 @@ app.get("/countries", cors(corsOptions), (_, res) => {
         throw new Error("Could not update the Cache for /countries/");
       }
     } catch (err) {
-      res.status(500).json({ msg: `Internal Server Error.` });
+      res.status(500).json({ msg: e.message });
     }
   })();
 });
