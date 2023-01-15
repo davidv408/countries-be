@@ -10,9 +10,9 @@ Open http://localhost:3001 to view it in the browser.
     official: string,
   }
   continentCode: string,
-  languages: Array<string>
+  languages: Array<string>,
   flag: string,
-  population: number
-  timezones: Array<string>
-  countries: Array<cca3ID: string>
+  population: number,
+  timezones: Array<string>,
+  countries: Array<cca3ID: string>,
 }
